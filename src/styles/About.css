@@ -1,0 +1,50 @@
+img {
+  display: inline-block;
+  border-radius: 500%;
+  max-height: 300px;
+  max-width: 300px;
+  margin-left: 20%;
+  margin-top: 12vh;
+}
+
+section {
+  width: 40%;
+  margin-top: 8em;
+  margin-left: 2em;
+  margin-right: 12vw;
+  float: right;
+}
+
+section #mini-bio {
+  text-align: center;
+  font-size: 40px
+}
+
+section #career {
+  font-size: 20px;
+  color: gray;
+}
+
+section #general-bio {
+  font-size: 17px;
+  color: black;
+}
+@media only screen and (max-width :768px) {
+  img {
+  display: inline-block;
+  border-radius: 500%;
+  max-height: 300px;
+  max-width: 300px;
+  margin-left: 20%;
+  margin-top: 7vh;
+  }
+
+  #full-bio {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  }
+  
+
+}
